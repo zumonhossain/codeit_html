@@ -1,0 +1,170 @@
+/*
+==========================================
+    Responsive Css
+==========================================
+*/
+@media only screen and (min-width:1400px){
+    .container{
+        max-width: 90%;
+    }
+}
+/* Medium screen  */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .main-menu ul li a {
+        font-size: 13px;
+    }
+    .blood-page-head .blood-year-content {
+        gap: 10px;
+    }
+    .blood-page-content-left-side .blood-page-bottom {
+        gap: 10px;
+    }
+    .blood-page-body .single-blood-page-content {
+        padding: 10px;
+    }
+    .blood-page-bottom .blood-page-bottom-group {
+        gap: 10px;
+    }
+    .blood-page-bottom-group .blood-page-icon-left i {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+    }
+    .blood-page-content-right span {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .blood-page-content-right-side .blood-page-content-image img {
+        width: 150px;
+    }
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .blood-page-head .blood-year-content {
+        -webkit-box-pack: end;
+            -ms-flex-pack: end;
+                justify-content: end;
+    }
+    .blood-search-content .blood-search {
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 768px) {
+    .common-margin-bottom{
+        margin-bottom: 20px;
+    }
+    .banner-btn .common-btn {
+        padding: 10px 30px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .section-heading h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .banner-content .banner-title h1 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .banner-description {
+        margin: 12px 0px 25px 0px;
+        max-width: 100%;
+    }
+    .event-slider-active .owl-nav button.owl-next {
+        display: none;
+    }
+    .event-slider-active .owl-nav button.owl-prev {
+        display: none;
+    }
+    .blood-group-title span {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .blood-group a {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .profession-title a {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .contact-us-title span {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .footer-copyright {
+        margin-top: 0px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .footer-bottom .social-media {
+        text-align: center;
+        padding-bottom: 15px;
+    }
+    /* otp login page css */
+    .auth-header h4 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    /* all blood page css */
+    .blood-year-content .blood-year select {
+        padding: 7px 5px;
+    }
+    .blood-search-content {
+        margin-top: 20px;
+    }
+    .blood-search-content .blood-search {
+        text-align: center;
+    }
+    .blood-page-content-left-side .blood-page-bottom {
+        gap: 15px;
+    }
+    .blood-page-content-right-side .blood-page-content-image img {
+        width: 150px;
+    }
+}
+/* Mobile Layout: 576px. */
+@media only screen and (max-width: 576px) {
+    .blood-page-head .blood-search-title {
+        margin-top: 0px;
+        text-align: center;
+    }
+    .blood-year-content {
+        margin-top: 20px;
+    }
+    .blood-page-body .single-blood-page-content {
+        display: inherit;
+    }
+    .single-blood-page-content .blood-page-content-image {
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+/* Mobile Layout: 430px. */
+@media only screen and (max-width: 430px) {
+    .owl-carousel.event-slider-active .owl-item img {
+        height: 300px;
+    }
+
+}
+/* Mobile Layout: 375px. */
+@media only screen and (max-width: 377px) {
+    .owl-carousel.event-slider-active .owl-item img {
+        height: 300px;
+    }
+
+    .blood-page-bottom-group .blood-page-icon-left i {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+    .blood-page-content-right span {
+        font-size: 14px;
+    }
+    .blood-page-bottom .blood-page-bottom-group {
+        gap: 8px;
+    }
+}
